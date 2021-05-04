@@ -46,3 +46,7 @@ function convert() {
 
 numbi.addEventListener("change", convert);
 userInput.addEventListener("keyup", registerUserValue);
+// https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API#drag_events
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Event/target
+//https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener
