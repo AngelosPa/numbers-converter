@@ -40,15 +40,26 @@ span {
   position: relative;
   width: 10rem;
   height: 10rem;
-  border: 2px black solid;
+  /* border: 2px black solid; */
+  background-image: url(./city2.jpeg);
 }
+
 .newphoto {
   position: absolute;
   width: 10rem;
   height: 10rem;
-  border: 2px rgb(173, 29, 29) solid;
-  top: 2.7rem;
-  display: none;
+  /* border: 2px rgb(173, 29, 29) solid; */
+  top: 9.8rem;
+
+  /* display: none; */
+  background-image: url(./city.jpeg);
+}
+.slider {
+  position: absolute;
+  width: 2px;
+  height: 10rem;
+  right: 9.7rem;
+  background-color: red;
 }
 @media only screen and (max-width: 500px) {
   .container,
