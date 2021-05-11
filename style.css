@@ -2,7 +2,7 @@
   padding: 0.1rem;
   margin: 0.1rem;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 22px;
 }
 body {
   background-color: black;
@@ -13,6 +13,7 @@ body {
   width: 100vw;
   height: 100vh;
   color: aliceblue;
+  font-weight: bold;
 }
 span {
   color: aliceblue;
@@ -23,7 +24,7 @@ span {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50vw;
+  width: 100vw;
   height: 50vh;
 }
 .smallcontainer {
@@ -32,39 +33,35 @@ span {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50vw;
+  width: 100vw;
   height: 50vh;
-  margin: 2rem;
 }
-.photo {
-  position: relative;
-  width: 10rem;
-  height: 10rem;
-  /* border: 2px black solid; */
-  background-image: url(./city2.jpeg);
+select {
+  font-size: 0.7rem;
+  height: 2rem;
+  width: 6.6rem;
+  background-color: gray;
+  border: none;
+  font-weight: bold;
+}
+input {
+  background-color: gray;
+  border: none;
+  font-weight: bold;
 }
 
-.newphoto {
-  position: absolute;
-  width: 10rem;
-  height: 10rem;
-  /* border: 2px rgb(173, 29, 29) solid; */
-  top: 9.8rem;
-
-  /* display: none; */
-  background-image: url(./city.jpeg);
+select:focus {
+  border: none;
+  outline: none;
 }
-.slider {
-  position: absolute;
-  width: 2px;
-  height: 10rem;
-  right: 9.7rem;
-  background-color: red;
+input:focus {
+  border: none;
+  outline: none;
 }
 @media only screen and (max-width: 500px) {
   .container,
   .smallcontainer {
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
   }
 }
